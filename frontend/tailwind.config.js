@@ -9,6 +9,9 @@ export default {
       colors:{
         'primary':'#229891',
         'secondary':'#458745'
+      },
+      gridTemplateColumns:{
+        'auto':'repeat(auto-fill,minmax(200px,1fr))'
       }
     },
     boxShadow: {

@@ -90,16 +90,16 @@ export const specialityData = [
 export const doctors = [
     {
         _id: 'doc1',
-        name: 'Dr. Richard James',
+        name: 'Dr. P Naveen Kumar.',
         image: doc1,
-        speciality: 'General physician',
+        speciality: 'General Physician',
         degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '13+ Years',
+        about: 'Dr P Naveen Kumar is a General Physician at Medicover Hospitals HITEC City. He has the expertise in all types of Fever Cases, Expertise In Fever Treatment Diabetes Hypertension ( High Bp ), Thyroid Issues Fever Of Unknown Origin, Dengue Fever Cholestrol Cases and many more. He achieved the prestigious Apj Kalam Medical Excellence Award and was a topper In Md General Medicine Rguhs.',
         fees: 50,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Medicover Out Patient Center, HUDA Techno Enclave',
+            line2: 'HITEC City, Hyderabad, Telangana 500081'
         }
     },
     {
@@ -174,16 +174,16 @@ export const doctors = [
     },
     {
         _id: 'doc7',
-        name: 'Dr. Christopher Davis',
+        name: 'Dr Raja Selvarajan',
         image: doc7,
-        speciality: 'General physician',
-        degree: 'MBBS',
-        experience: '4 Years',
+        speciality: 'General Physician',
+        degree: 'MBBS,MD,FID,FRSSDI,FRCP',
+        experience: '18+ Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: '351 ITPL Main Road, Whitefield Road, ITPL Main Road HOODI VILLAGE,',
+            line2: 'KRISHNARAJAPURA, HOBLI, Hoodi, Bengaluru, Karnataka 560048'
         }
     },
     {
