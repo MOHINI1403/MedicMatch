@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Nav items with 3D effect */
+.nav-item {
+  list-style: none;
+}
+
+
+/* 3D Effect for Button */
+.cta-button {
+  background: linear-gradient(145deg, #229891, #d7e8d7);  /* Green gradient */
+  color: #1e1f20;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5); /* Gives button depth */
+  transition: all 0.3s ease;
+}
+
+/* Lifted button effect on hover */
+.cta-button:hover {
+  color:white;
+  transform: translateY(-3px);
+  background: linear-gradient(145deg, #111, #222);
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.6);
+}
+.active hr {
+  @apply block;
+}
