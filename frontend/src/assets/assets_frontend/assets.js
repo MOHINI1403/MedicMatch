@@ -179,7 +179,7 @@ export const doctors = [
         speciality: 'General Physician',
         degree: 'MBBS,MD,FID,FRSSDI,FRCP',
         experience: '18+ Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        about: 'Dr Raja Selvarajan is a renowed Doctor holding an expertise in Internal Medicine and Diabetes. He is recently working at Kaveri Healthcare but also worked previously at Columbia Asia Hospital Whitefield,Apollo Hospital Bengaluru,Diabetacare.He received mnay prestigious awards some of them are : Vidya Rathna Award 2016- for contribution in the field of Diabetes, 2021 Award for Excellence in Diabetes Care from Lions Club International, FRSSDI - 2021 and many more. ',
         fees: 50,
         address: {
             line1: '351 ITPL Main Road, Whitefield Road, ITPL Main Road HOODI VILLAGE,',
@@ -298,4 +298,15 @@ export const doctors = [
             line2: 'Circle, Ring Road, London'
         }
     },
+]
+
+export const testimonals=[
+    {
+        name:'Savita',
+        content:'Great service by the doctors. Thank you MedicMatch for proactive follow ups after the consultation and helping me in finding the right Doctor for me and making the entire process quite easy for me ',
+    },
+    {
+        name:'Nirmala',
+        content:''
+    }
 ]
