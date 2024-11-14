@@ -20,23 +20,41 @@ const Appointment = () => {
 
         {/*--------------------Doctors DEtails----------------- */}
         <div>
-        <div>
-                <img src={docInfo.image} />
-            </div>
             <div>
-                {/*----------------Doc Info-------------------- */}
-                <p>{docInfo.name} <img src={assets.verified_icon} /></p>
-                <div>
-                    <p>{docInfo.degree} - {docInfo.speciality}</p>
-                    <button>{docInfo.experience}</button>
-                </div>
-                {/*--------------Doctor About------------------ */}
-                <div>
-                    <p>About <img src={assets.info_icon} /></p>
-                    <p>{docInfo.about}</p>
-                </div>
 
+            {docInfo&&docInfo.image ? (
+                <div>
+                    <img src={docInfo.image || 'path_to_default_image.jpg'} alt="Doctor" />
+                    
+                    {/* Add more fields as needed */}
+                </div>
+            ) : (
+                <p>Loading...</p> // or handle the null case
+            )}
+                
             </div>
+
+            {docInfo ? (
+                <div>
+                    
+                    <p>{docInfo.name} <img src={assets.verified_icon} /></p>
+                    <div>
+
+                        <p>{docInfo.degree} - {docInfo.speciality}</p>
+                        <button>{docInfo.experience}</button>
+                    </div>
+
+                    <div>
+                        <p>About <img src={assets.info_icon} /></p>
+                        <p>{docInfo.about}</p>
+                    </div>
+                    {/* Add more fields as needed */}
+                </div>
+            ) : (
+                <p>Loading...</p> // or handle the null case
+            )}
+
+            
         
         </div>
 
