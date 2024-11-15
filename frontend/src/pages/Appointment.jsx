@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { AppContext } from "../context/AppContext.jsx";
 import { assets } from "../assets/assets_frontend/assets.js";
+import RelatedDoctors from "../components/RelatedDoctors.jsx";
 
 const Appointment = () => {
   const { docId } = useParams();
@@ -72,7 +73,7 @@ const Appointment = () => {
       <div>
         <div className="flex flex-col sm:flex-row gap-4 p-4 border rounded-lg shadow-lg">
           {docInfo && docInfo.image ? (
-            <div className="bg-green-100 rounded-lg">
+            <div className="rounded-lg ">
               <img
                 className="bg-primary w-full sm:max-w-75 rounded-lg"
                 src={docInfo.image || "path_to_default_image.jpg"}
@@ -142,7 +143,12 @@ const Appointment = () => {
     hover:bg-gradient-to-br hover:from-[#111] hover:to-[#222] 
     hover:shadow-lg hover:shadow-black/60">Book an Appointment</button>
       </div>
-      
+
+      {/*-----------------------Listing Related Doctors------------------- */}
+      {docId && docInfo && docInfo.speciality && (
+        <RelatedDoctors docId={docId} speciality={docInfo.speciality} />
+      )}
+
     </div>
   );
 };

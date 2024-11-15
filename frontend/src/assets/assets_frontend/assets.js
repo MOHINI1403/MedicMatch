@@ -23,13 +23,13 @@ import doc4 from './doc4.png'
 import doc5 from './doc5.png'
 import doc6 from './doc6.png'
 import doc7 from './doc7.png'
-import doc8 from './doc8.png'
+import doc8 from './doc8.jpeg'
 import doc9 from './doc9.png'
 import doc10 from './doc10.png'
 import doc11 from './doc11.png'
 import doc12 from './doc12.png'
 import doc13 from './doc13.png'
-import doc14 from './doc14.png'
+import doc14 from './doc14.jpeg'
 import doc15 from './doc15.png'
 import Dermatologist from './Dermatologist.png'
 import Gastroenterologist from './Gastroenterologist.png'
@@ -188,16 +188,16 @@ export const doctors = [
     },
     {
         _id: 'doc8',
-        name: 'Dr. Timothy White',
+        name: 'Dr. Sonia Naik',
         image: doc8,
         speciality: 'Gynecologist',
-        degree: 'MBBS',
-        experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 60,
+        degree: 'MBBS MD PGT(Obstetrics & Gynaecology)',
+        experience: '10+ Years',
+        about: 'Dr. Sonia Naik is an esteemed consultant in Obstetrics and Gynecology, currently associated with Max Healthcare and the Sitaram Bhartiya Institute of Science & Research in Delhi. With advanced training from renowned institutions like Bradford Royal Infirmary in the UK and Reliance Life Sciences in Mumbai, she specializes in high-risk obstetrics, laparoscopy, hysteroscopy, adolescent gynecology, and infertility. Dr. Naik holds an MD from Pandit Jawahar Lal Nehru Medical College, Raipur, and is a member of several prestigious medical societies, including FOGSI and the Indian Menopause Society. She has also served as the Organizing Secretary and Editor for the Foetal Medicine Society, demonstrating her commitment to advancing maternal-fetal health.',
+        fees: 1500,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Max Smart Super Speciality Hospital',
+            line2: 'Saket New Delhi ,110017 '
         }
     },
     {
@@ -272,16 +272,16 @@ export const doctors = [
     },
     {
         _id: 'doc14',
-        name: 'Dr. Ryan Martinez',
+        name: 'Dr. Bindu Garg',
         image: doc14,
         speciality: 'Gynecologist',
-        degree: 'MBBS',
-        experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 60,
+        degree: 'M.B.B.S ,M.D ,PG Reproductive Science ,Monash Uni., Australia ,Cleveland University, USA',
+        experience: '40+ Years',
+        about: 'Dr. Bindu Garg is a highly respected gynecologist and infertility specialist with over 43 years of experience, currently serving as the Head of the IVF Department at Neelkanth Hospital, Delhi NCR. She holds advanced qualifications in reproductive science from Monash University, Australia, and training in human reproductive sciences from Cleveland University, USA. Dr. Garg was the first in Gurgaon to deliver a baby through IVF, and her expertise has led to the birth of over 25,000 IVF babies, bringing hope to thousands of families both in India and abroad. In addition to infertility treatment, she is skilled in high-risk pregnancies, normal deliveries, PCOS/PCOD management, and laparoscopic surgeries. Dr. Garg is also dedicated to advancing the field through training future gynecologists in specialized techniques like laparoscopy, hysteroscopy, and IVF.',
+        fees: 1900,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Neelkanth Hospital',
+            line2: 'Gurgaon 110062'
         }
     },
     {
