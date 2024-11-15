@@ -9,7 +9,7 @@ import dropdown_icon from './dropdown_icon.svg'
 import menu_icon from './menu_icon.svg'
 import cross_icon from './cross_icon.png'
 import chats_icon from './chats_icon.svg'
-import verified_icon from './verified_icon.svg'
+import verified_icon from './verified_icon.png'
 import arrow_icon from './arrow_icon.svg'
 import info_icon from './info_icon.svg'
 import upload_icon from './upload_icon.png'
@@ -17,7 +17,7 @@ import stripe_logo from './stripe_logo.png'
 import razorpay_logo from './razorpay_logo.png'
 import header_profile from './group-profiles.png'
 import doc1 from './doc1.png'
-import doc2 from './doc2.png'
+import doc2 from './doc2.jpg'
 import doc3 from './doc3.png'
 import doc4 from './doc4.png'
 import doc5 from './doc5.png'
@@ -104,16 +104,16 @@ export const doctors = [
     },
     {
         _id: 'doc2',
-        name: 'Dr. Emily Larson',
+        name: 'Dr. Manju Khemani',
         image: doc2,
         speciality: 'Gynecologist',
         degree: 'MBBS',
-        experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 60,
+        experience: '43+ Years',
+        about: 'Dr. Manju Khemani is a highly experienced Obstetrics and Gynecology specialist with over 34 years of expertise. Currently practicing at Max Healthcare, she has held notable roles, including Professor at Lady Hardinge Medical College and Consultant at Sitaram Bhartia Hospital. Dr. Khemani is well-regarded for her work in high-risk pregnancies and gynecological endoscopy surgeries. She completed her MD and MBBS from Gandhi Medical College, Bhopal, and has a fellowship in Endoscopy from BEAMS, Mumbai. She is also an active member of esteemed organizations like FOGSI, NARCHI, IFS, and DGES.',
+        fees: 1500,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'Max-Hospital Saket',
+            line2: 'New Delhi 110017'
         }
     },
     {
