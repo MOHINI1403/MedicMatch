@@ -17,7 +17,7 @@ const Header = () => {
         </div>
         {/*---------------------Right Side-------------------------*/}
         <div className='md:w-1/2 relative'>
-            <img  src={assets.header_profile} className='w-full md:absolute bottom-40 left-2  h-auto rounded-lg '/>
+            <img  src={assets.about_image} className='w-full md:absolute bottom-20 left-4  h-auto rounded-lg '/>
         </div>
 
 
