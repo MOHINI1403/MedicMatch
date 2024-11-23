@@ -50,18 +50,20 @@ const Doctors = () => {
               </div>
               {/*---------------Hover Card Section------------- */}
               <div className="absolute inset-0 bg-gray-70 bg-opacity-80 backdrop-blur-md p-4 translate-x-full group-hover:translate-x-0 transition-transform duration-700 ease-in-out text-white">
-                <p className="flex items-center gap-2 text-2xl font-medium text-gray-900 ">{item.name}</p>
+                <p className="flex items-center gap-2 text-xl font-medium text-gray-900 ">{item.name}</p>
                 <div className="flex items-center gap-2 text-sm mt-1 text-gray-600">
                   <p>
-                    {item.degree} - {item.speciality}
+                    {item.degree.slice(0,10)}
                   </p>
-                  <button className="py-0.5 px-2 border text-xs rounded-full bg-green-500">{item.experience}</button>
+                  
+                  <button className="py-0.5 px-2 border text-xs rounded-full bg-green-100">{item.experience.slice(0,2)} YEARS </button>
+                  {console.log(item.experience[0])}
                 </div>
-                
+                <p className="mt-2 text-gray-600 text-sm flex items-center">{item.about.slice(0,70)}...</p>
                 <p className="text-sm text-gray-500 mt-4">
                   Appointment Fee: <span className="text-black">₹{item.fees}</span>
                 </p>
-                <button onClick={() => navigate(`/appointment/${item._id}`)} className="mt-6 py-2 px-4 bg-green-400 text-gray-900 font-medium rounded-lg shadow-md">
+                <button onClick={() => navigate(`/appointment/${item._id}`)} className="mt-6 py-2 px-4 bg-primary text-white font-medium rounded-lg shadow-md">
                 Book Appointment
               </button>
               </div>
